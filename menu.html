@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+   <link rel="stylesheet" href="bootstrap.min.css">
+   <!-- <script src="bootstrap.min.js"></script> -->
+</head>
+
+<style>
+/* label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+} */
+
+body {
+    min-width:300px;
+}
+
+
+
+</style>
+
+
+<!--
+<label for="select-mode">Match mode:</label>
+<select name="select-mode" id="select-mode" >
+    <option value="0" style="background-color:gray">Off</option>
+    <option value="1" style="background-color:green">On</option>
+    <option value="2" style="background-color:cyan">Auto match</option>
+</select> -->
+
+
+
+<div class="row mx-auto">
+<label for="select-mode" class="col-6 col-form-label">Match mode</label>
+<select class="col-6" id="select-mode" >
+  <option value="0" class='bg-secondary'>Off</option>
+  <option value="1" class='bg-success'>On</option>
+  <option value="2" class='bg-info'>Auto match</option>
+</select>
+</div>
+
+
+
+
+
+
+<script src="functions.js"></script>
+<script src="menu.js"></script>
+
+
+</html>

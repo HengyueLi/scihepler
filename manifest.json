@@ -1,0 +1,19 @@
+{
+  "name": "sci helper",
+  "description": "Automatically redirect to SciHub, arXiv,...",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "content_scripts": [ {
+     "js": ["functions.js" ,"content.js" ],
+     "matches": [ "<all_urls>" ]
+  }],
+  "action": {
+    "default_popup": "menu.html"
+  },
+  "icons": {
+    "16": "img/Scihub_raven.png",
+    "32": "img/Scihub_raven.png",
+    "128": "img/Scihub_raven.png"
+  }
+}
